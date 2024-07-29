@@ -1,0 +1,172 @@
+*{
+	margin:0px;
+}
+.info{
+	background-color:#252d39;
+	color:white;
+	height:35px;
+}
+.info h6 ion-icon{
+	font-size:17px;
+	margin-top:8px;
+}
+.info ul li{
+	display: inline-block;
+}
+.info li ion-icon{
+	margin-top:8px;
+	margin-left:4px;
+	margin-right:4px;
+	font-size:20px;
+}
+.info li h6{
+	margin-left:4px;
+}
+@media(max-width:667px){
+	.info{
+		display:none;
+	}
+}
+
+.info2{
+	background-color:#f9f9f9;
+}
+.info2 h6{
+	font-size:13px;
+	margin-top:8px;
+}
+.info2 ul{
+	margin-left:110px;
+}
+.info2 ul li{
+	display:inline-block;
+}
+.info2 ul li ion-icon{
+	margin-left:25px;
+	margin-top:14px;
+}
+.info2 button ion-icon{
+	font-size:11px;
+}
+.info2 button:hover{
+	color:green;
+}
+@media(max-width:667px){
+	.info2{
+		display:none;
+	}
+}
+
+
+.navbar_css ul li{
+	font-size:18px;
+	margin-left:20px;
+	color:white;
+}
+.navbar_css ul li:hover{
+	background-color:green;
+}
+.logo{
+	display:none;
+}
+@media(max-width:667px){
+	.navbar_css ul li{
+		text-align:center;
+		margin-left:-40px;
+	}
+	/* .logo{
+		padding: 10px;
+		height:60px;
+		margin-left:410px;
+		margin-top:-40px;
+	} */
+}
+
+
+.slider_img img{
+	height:400px;
+}
+@media(max-width:667px){
+	.slider_img img{
+		height:200px;
+	}
+}
+
+.button_hover button{
+	color:#12687f;
+}
+.button_hover button:hover{
+	color:white;
+	background-color:#12687f;
+}
+
+.about button{
+	background-color:#12687f;
+}
+.about button:hover{
+	background-color:green;
+}
+@media(max-width:667px){
+	.about img{
+		width:100%;
+	}
+}
+
+@media(max-width:667px){
+	.services .card{
+		width:90%;
+		margin-left:5%;
+	}
+	.card h4{
+		margin-top:20px;
+	}
+	.card p{
+		margin-top:14px;
+	}
+}
+
+.home_icon{
+	background-color:#12687f;
+}
+.home_icon .card{
+	background-color:#12687f;
+	color:white;
+}
+
+
+@media(max-width:667px){
+	.milestone .card{
+		width:90%;
+		margin-left:5%;
+		margin-top:20px;
+	}
+}
+
+.media img{
+	height:200px;
+}
+@media(max-width:667px){
+	.media .card{
+		width:94%;
+		margin-left:3%;
+	}
+}
+input{
+	width:90%;
+	height:38px;
+}
+select{
+	width:96%;
+	height:40px;
+}
+
+.last{
+	background-color:#252d39;
+}
+.last img{
+	height:100px;
+	width:100px;
+}
+.last iframe{
+	height:230px;
+}

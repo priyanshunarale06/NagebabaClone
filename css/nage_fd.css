@@ -1,0 +1,9 @@
+.flat_card img{
+	height:150px;
+}
+.flat_card button{
+	background-color:#11677E;
+}
+.flat_card button:hover{
+	background-color:green;
+}

@@ -1,0 +1,24 @@
+.about h2{
+	color:#12687F;
+}
+.about h4{
+	color:#12687F;
+}
+
+.award .card img{
+	height:200px;
+}
+
+.media .card img{
+	height:200px;
+}
+.media .card button{
+	background-color:#11677E;
+	color:white;
+}
+@media(max-width:667px){
+	.media .card{
+		width:94%;
+		margin-left:3%;
+	}
+}

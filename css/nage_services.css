@@ -1,0 +1,22 @@
+.services img{
+	height:200px;
+}
+
+.menu_logo{
+	height:40px;
+	width:100px;
+	margin-left:-40px;
+}
+
+@media(max-width:667px){
+	.services .card{
+		width:86%;
+		margin-left:7%;
+	}
+}
+.services a{
+	background-color:#12687F;
+}
+.services a:hover{
+	background-color:green;
+}

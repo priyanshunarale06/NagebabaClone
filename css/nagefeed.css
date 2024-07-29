@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+}
+.info{
+	background-color:#252d39;
+	color:white;
+	height:35px;
+}
+.info h6 ion-icon{
+	font-size:17px;
+	margin-top:8px;
+}
+.info ul li{
+	display: inline-block;
+}
+.info li ion-icon{
+	margin-top:8px;
+	margin-left:4px;
+	margin-right:4px;
+	font-size:20px;
+}
+.info li h6{
+	margin-left:4px;
+}
+@media(max-width:667px){
+	.info{
+		display:none;
+	}
+}
+
+.info2{
+	background-color:#f9f9f9;
+}
+.info2 h6{
+	font-size:13px;
+	margin-top:8px;
+}
+.info2 ul{
+	margin-left:110px;
+}
+.info2 ul li{
+	display:inline-block;
+}
+.info2 ul li ion-icon{
+	margin-left:25px;
+	margin-top:14px;
+}
+.info2 button ion-icon{
+	font-size:11px;
+}
+.info2 button:hover{
+	color:green;
+}
+@media(max-width:667px){
+	.info2{
+		display:none;
+	}
+}
+
+
+.navbar_css ul li{
+	font-size:18px;
+	margin-left:20px;
+	color:white;
+}
+.navbar_css ul li:hover{
+	background-color:green;
+}
+.logo{
+	display:none;
+}
+@media(max-width:667px){
+	.navbar_css ul li{
+		text-align:center;
+		margin-left:50px;
+	}
+	.logo{
+		display:inline-block;
+		height:40px;
+		margin-left:360px;
+	}
+}
+
+
+.bimg h1{
+	margin-top:-200px;
+	margin-left:80px;
+}
+.bimg h6{
+	margin-left:84px;
+}
+@media(max-width:667px){
+	.bimg h1{
+	margin-top:-110px;
+	margin-left:140px;
+	}
+	.bimg h6{
+	margin-left:140px;
+}
+
+}
+.last{
+	background-color:#252d39;
+}
+.last img{
+	height:100px;
+	width:100px;
+}
+.last iframe{
+	height:200px;
+}
